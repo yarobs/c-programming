@@ -1,4 +1,0 @@
-Grading at Tue Apr 24 20:41:39 UTC 2018
-Your file matched the expected output
-
-Overall Grade: PASSED
