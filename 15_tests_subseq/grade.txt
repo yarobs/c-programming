@@ -1,0 +1,139 @@
+Grading at Thu May 31 06:47:44 UTC 2018
+**Testing broken implementation 10 **
+-------------------------------------
+
+666 seq: rc: 0
+Seq seq1: len: 1; mseq: 1 Seq seq1: {0, }
+Seq seq2: len: 5; mseq: 1 Seq seq2: {0, 0, 0, 0, 0, }
+Seq seq3: len: 6; mseq: 1 Seq seq3: {1, 1, 1, 1, 1, 1, }
+Seq seq4: len: 9; mseq: 9 Seq seq4: {1, 2, 3, 4, 5, 6, 7, 8, 9, }
+Seq seq5: len: 11; mseq: 2 Seq seq5: {-1, -2, -3, -4, 5, 4, 2, 1, 20, 19, 15, }
+Seq seq6: len: 1; mseq: 1 Seq seq6: {1, }
+Seq seq7: len: 1; mseq: 1 Seq seq7: {0, }
+Seq seq8: len: 6; mseq: 2 Seq seq8: {100, 50, 300, 20, 400, -1, }
+maxSeq failed: 3
+
+**Testing broken implementation 11 **
+-------------------------------------
+
+666 seq: rc: 0
+Seq seq1: len: 1; mseq: 1 Seq seq1: {0, }
+maxSeq failed: 2
+
+**Testing broken implementation 1 **
+-------------------------------------
+
+666 seq: rc: 0
+Seq seq1: len: 1; mseq: 1 Seq seq1: {0, }
+Seq seq2: len: 5; mseq: 1 Seq seq2: {0, 0, 0, 0, 0, }
+maxSeq failed: 5
+
+**Testing broken implementation 2 **
+-------------------------------------
+
+666 seq: rc: 1
+maxSeq failed: 666: 1
+
+**Testing broken implementation 3 **
+-------------------------------------
+
+666 seq: rc: 0
+Seq seq1: len: 1; mseq: 1 Seq seq1: {0, }
+Seq seq2: len: 5; mseq: 1 Seq seq2: {0, 0, 0, 0, 0, }
+Seq seq3: len: 6; mseq: 1 Seq seq3: {1, 1, 1, 1, 1, 1, }
+Seq seq4: len: 9; mseq: 9 Seq seq4: {1, 2, 3, 4, 5, 6, 7, 8, 9, }
+Seq seq5: len: 11; mseq: 2 Seq seq5: {-1, -2, -3, -4, 5, 4, 2, 1, 20, 19, 15, }
+Seq seq6: len: 1; mseq: 1 Seq seq6: {1, }
+maxSeq failed: 2
+
+**Testing broken implementation 4 **
+-------------------------------------
+
+666 seq: rc: 1
+maxSeq failed: 666: 1
+
+**Testing broken implementation 5 **
+-------------------------------------
+
+666 seq: rc: 0
+Seq seq1: len: 1; mseq: 1 Seq seq1: {0, }
+Seq seq2: len: 5; mseq: 1 Seq seq2: {0, 0, 0, 0, 0, }
+Seq seq3: len: 6; mseq: 1 Seq seq3: {1, 1, 1, 1, 1, 1, }
+Seq seq4: len: 9; mseq: 9 Seq seq4: {1, 2, 3, 4, 5, 6, 7, 8, 9, }
+Seq seq5: len: 11; mseq: 2 Seq seq5: {-1, -2, -3, -4, 5, 4, 2, 1, 20, 19, 15, }
+maxSeq failed: 3
+
+**Testing broken implementation 6 **
+-------------------------------------
+
+666 seq: rc: 0
+Seq seq1: len: 1; mseq: 1 Seq seq1: {0, }
+maxSeq failed: 0
+
+**Testing broken implementation 7 **
+-------------------------------------
+
+666 seq: rc: 0
+Seq seq1: len: 1; mseq: 1 Seq seq1: {0, }
+maxSeq failed: 0
+
+**Testing broken implementation 8 **
+-------------------------------------
+
+666 seq: rc: 0
+Seq seq1: len: 1; mseq: 1 Seq seq1: {0, }
+Seq seq2: len: 5; mseq: 1 Seq seq2: {0, 0, 0, 0, 0, }
+Seq seq3: len: 6; mseq: 1 Seq seq3: {1, 1, 1, 1, 1, 1, }
+Seq seq4: len: 9; mseq: 9 Seq seq4: {1, 2, 3, 4, 5, 6, 7, 8, 9, }
+maxSeq failed: 1
+
+**Testing broken implementation 9 **
+-------------------------------------
+
+666 seq: rc: 0
+Seq seq1: len: 1; mseq: 1 Seq seq1: {0, }
+Seq seq2: len: 5; mseq: 1 Seq seq2: {0, 0, 0, 0, 0, }
+Seq seq3: len: 6; mseq: 1 Seq seq3: {1, 1, 1, 1, 1, 1, }
+Seq seq4: len: 9; mseq: 9 Seq seq4: {1, 2, 3, 4, 5, 6, 7, 8, 9, }
+Seq seq5: len: 11; mseq: 2 Seq seq5: {-1, -2, -3, -4, 5, 4, 2, 1, 20, 19, 15, }
+maxSeq failed: 1
+
+**Testing correct implementation **
+-------------------------------------
+
+666 seq: rc: 0
+Seq seq1: len: 1; mseq: 1 Seq seq1: {0, }
+Seq seq2: len: 5; mseq: 1 Seq seq2: {0, 0, 0, 0, 0, }
+Seq seq3: len: 6; mseq: 1 Seq seq3: {1, 1, 1, 1, 1, 1, }
+Seq seq4: len: 9; mseq: 9 Seq seq4: {1, 2, 3, 4, 5, 6, 7, 8, 9, }
+Seq seq5: len: 11; mseq: 2 Seq seq5: {-1, -2, -3, -4, 5, 4, 2, 1, 20, 19, 15, }
+Seq seq6: len: 1; mseq: 1 Seq seq6: {1, }
+Seq seq7: len: 1; mseq: 1 Seq seq7: {0, }
+Seq seq8: len: 6; mseq: 2 Seq seq8: {100, 50, 300, 20, 400, -1, }
+Seq seq9: len: 5; mseq: 5 Seq seq9: {10, 20, 30, 40, 50, }
+Seq seq10: len: 6; mseq: 6 Seq seq10: {1000, 2000, 3000, 10000, 900000, 1000000, }
+Seq seq11: len: 12; mseq: 5 Seq seq11: {30, 5, 6, 7, 8, 9, 4, 2, 10, 11, 12, 3, }
+Seq seq12: len: 10; mseq: 4 Seq seq12: {10, 15, 17, 19, 11, 6, 3, 4, 5, 90, }
+Seq seq13: len: 5; mseq: 5 Seq seq13: {-199, -188, -150, -120, -80, }
+Seq seq14: len: 11; mseq: 5 Seq seq14: {-20, -19, -18, -17, 9, 8, 7, 6, -40, -31, 50, }
+Seq seq15: len: 2; mseq: 2 Seq seq15: {3, 4, }
+Seq seq16: len: 2; mseq: 1 Seq seq16: {4, 3, }
+Seq seq17: len: 15; mseq: 5 Seq seq17: {100, 30, 3, 4, 5, 6, 7, 2, 500, 40, 30, 32, 35, 37, 39, }
+Seq seq18: len: 15; mseq: 5 Seq seq18: {100, 30, 3, 4, 5, 6, 7, 2, 500, 40, 30, 32, 28, 37, 39, }
+Seq seq19: len: 12; mseq: 3 Seq seq19: {2, 3, 4, 2, 3, 4, 2, 3, 4, 2, 3, 4, }
+Seq seq20: len: 14; mseq: 6 Seq seq20: {5, 6, 7, 4, 6, 7, 2, 1, 8, 9, 10, 20, 30, 1, }
+Seq seq21: len: 2; mseq: 2 Seq seq21: {-2147483648, 2147483647, }
+Seq seq22: len: 21; mseq: 2 Seq seq22: {0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, }
+Seq seq23: len: 6; mseq: 1 Seq seq23: {-2, -3, -4, -6, -7, -8, }
+Seq seq24: len: 2; mseq: 1 Seq seq24: {2147483647, -2147483648, }
+Seq seq25: len: 1; mseq: 1 Seq seq25: {5, }
+Seq seq26: len: 1; mseq: 1 Seq seq26: {-5, }
+Seq seq27: len: 2; mseq: 2 Seq seq27: {-5, 0, }
+Seq seq28: len: 2; mseq: 1 Seq seq28: {5, 0, }
+Seq seq29: len: 2; mseq: 2 Seq seq29: {0, 5, }
+Seq seq30: len: 36; mseq: 8 Seq seq30: {1, -1, 1, -1, 1, 2, -1, 1, 2, 3, -1, 1, 2, 3, 4, -1, 1, 2, 3, 4, 5, -1, 1, 2, 3, 4, 5, 6, -1, 1, 2, 3, 4, 5, 6, 7, }
+maxSeq OK
+
+All test programs were handled correctly
+
+Overall Grade: PASSED
