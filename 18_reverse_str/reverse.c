@@ -9,16 +9,15 @@ void reverse(char * str) {
   char temp;
 
   len = strlen(str);
-  printf("Str: %s len: %d\n", str, len);
 
-  if ((len % 2) == 0) {
+  if (len == 0) {
+    return;
+  } else if ((len % 2) == 0) {
     stop = 1;
   } else {
     stop = 0;
   }
 
-  i = 0;
-  k = len-1;
   for (i=0,k=len-1; (i-k) < stop; i++,k--) {
     temp = str[i];
     str[i] = str[k];
