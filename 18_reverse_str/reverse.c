@@ -9,6 +9,7 @@ void reverse(char * str) {
   char temp;
 
   len = strlen(str);
+  printf("Str: %s len: %d\n", str, len);
 
   if ((len % 2) == 0) {
     stop = 1;
