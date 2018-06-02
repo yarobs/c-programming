@@ -3,7 +3,6 @@
 #include <string.h>
 
 void reverse(char * str) {
-  //WRITE ME!
   int i;
   int len;
   char temp, *start, *end;
