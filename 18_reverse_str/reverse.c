@@ -10,7 +10,7 @@ void reverse(char * str) {
 
   len = strlen(str);
 
-  if (len == 0) {
+  if (len <= 1) {
     return;
   } else if ((len % 2) == 0) {
     stop = 1;
