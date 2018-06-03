@@ -3,22 +3,25 @@
 #include <string.h>
 
 void reverse(char * str) {
-  int i;
-  int len;
-  char temp, *start, *end;
+  //WRITE ME!
+  int i,k;
+  int len, stop;
+  char temp;
 
   len = strlen(str);
-  start = str;
-  end = str;
-  end += len-1;
 
-  for (i=0; i <= len/2; i++) {
-    temp = *end;
-    *end = *start;
-    *start = temp;
+  if (len <= 1) {
+    return;
+  } else if ((len % 2) == 0) {
+    stop = 1;
+  } else {
+    stop = 0;
+  }
 
-    start++;
-    end--;
+  for (i=0,k=len-1; (i-k) != stop; i++,k--) {
+    temp = str[i];
+    str[i] = str[k];
+    str[k] = temp;
   }
 }
 
