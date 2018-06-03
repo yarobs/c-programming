@@ -6,17 +6,11 @@ void reverse(char * str) {
   int i;
   int len;
   char temp, *start, *end;
-  FILE *f;
-  
-  f = fopen("/home/student/r.out", "w+");
 
   len = strlen(str);
   start = str;
   end = str;
   end += len-1;
-
-  fprintf(f, "Str: %s len: %d size: %lu\n", str, len, sizeof(str[0]));
-  fclose(f);
 
   for (i=0; i <= len/2; i++) {
     temp = *end;
@@ -29,8 +23,8 @@ void reverse(char * str) {
 }
 
 int main(void) {
-  char str0[] = "123";
-  char *str1 = "123";
+  char str0[] = "";
+  char str1[] = "123";
   char str2[] = "abcd";
   char str3[] = "Captain's log, Stardate 42523.7";
   char str4[] = "Hello, my name is Inigo Montoya.";
