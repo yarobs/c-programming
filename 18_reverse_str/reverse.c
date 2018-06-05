@@ -8,6 +8,10 @@ void reverse(char * str) {
   int len, stop;
   char temp;
 
+  if (str == NULL) {
+    return;
+  }
+
   len = strlen(str);
 
   if (len <= 1) {
