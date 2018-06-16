@@ -11,15 +11,15 @@ void assert_card_valid(card_t c) {
 
 const char * ranking_to_string(hand_ranking_t r) {
   switch(r){
-  case STRAIGHT_FLUSH: return "Straight flush";
-  case FOUR_OF_A_KIND: return "Four of a kind";
-  case FULL_HOUSE: return "Full house";
-  case FLUSH: return "Flush";
-  case STRAIGHT: return "Straight";
-  case THREE_OF_A_KIND: return "Three of a kind";
-  case TWO_PAIR: return "Two pairs";
-  case PAIR: return "Pair";
-  case NOTHING: return "Nothing";
+  case STRAIGHT_FLUSH: return "STRAIGHT_FLUSH";
+  case FOUR_OF_A_KIND: return "FOUR_OF_A_KIND";
+  case FULL_HOUSE: return "FULL_HOUSE";
+  case FLUSH: return "FLUSH";
+  case STRAIGHT: return "STRAIGHT";
+  case THREE_OF_A_KIND: return "THREE_OF_A_KIND";
+  case TWO_PAIR: return "TWO_PAIR";
+  case PAIR: return "PAIR";
+  case NOTHING: return "NOTHING";
   }
   return "";
 }
@@ -84,14 +84,14 @@ card_t card_from_letters(char value_let, char suit_let) {
 card_t card_from_num(unsigned c) {
   unsigned val, suit;
 
-  val = c % 13;
+  val = (c % 13) + 2;
   suit = c / 13;
 
-  if (val == 0) {
+  /*if (val == 0) {
     val = 0;
   } else if (val > 8) {
     val += 2;
-  } else val++;
+  } else val++;*/
 
   card_t temp;
   temp.value = val;
