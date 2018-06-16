@@ -67,7 +67,7 @@ card_t card_from_letters(char value_let, char suit_let) {
         case 'Q': temp.value = 12; break;
         case 'K': temp.value = 13; break;
         case 'A': temp.value = 14; break;
-        default: fprintf(stderr, "Invalid card value: %d\n", value_let); exit(EXIT_FAILURE);
+        //default: fprintf(stderr, "Invalid card value: %d\n", value_let); exit(EXIT_FAILURE);
       }
   }
 
@@ -76,7 +76,7 @@ card_t card_from_letters(char value_let, char suit_let) {
     case 'h': temp.suit = HEARTS; break;
     case 'd': temp.suit = DIAMONDS; break;
     case 'c': temp.suit = CLUBS; break;
-    default: fprintf(stderr, "Invalid card suite: %c", suit_let); exit(EXIT_FAILURE);
+    //default: fprintf(stderr, "Invalid card suite: %c", suit_let); exit(EXIT_FAILURE);
   }
   return temp;
 }
