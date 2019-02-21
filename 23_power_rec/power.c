@@ -7,7 +7,8 @@ unsigned power_helper(unsigned x, unsigned y, unsigned m) {
         return 0;
     }
 
-    power_helper(x * m, y - 1, m);
+    x = power_helper(x * m, y - 1, m);
+    return x;
 }
 
 unsigned power(unsigned x, unsigned y) {
