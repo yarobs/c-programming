@@ -8,6 +8,7 @@ unsigned power_helper(unsigned x, unsigned y, unsigned m) {
     }
 
     x = power_helper(x * m, y - 1, m);
+    // Just to make compiler happy.
     return x;
 }
 
